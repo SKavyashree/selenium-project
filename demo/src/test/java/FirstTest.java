@@ -6,20 +6,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 class FirstTest{
 
-    // public static void main(String[] args) {
-    //     WebDriverManager.chromedriver().setup();
-    //     WebDriver driver = new ChromeDriver();
-    //   //  WebDriver driver = new FirefoxDriver();
-    //     driver.get("https://rahulshettyacademy.com");
-    //     String page_title = driver.getTitle();
-    //     System.out.println(page_title);
-    //     System.out.println(driver.getCurrentUrl());
-    //     driver.close();
-        
-    // }
-
-@Test
-    void sampleRun() {
+    public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
       //  WebDriver driver = new FirefoxDriver();
@@ -30,4 +17,17 @@ class FirstTest{
         driver.close();
         
     }
-}
+
+// @Test
+//     void sampleRun() {
+//         WebDriverManager.chromedriver().setup();
+//         WebDriver driver = new ChromeDriver();
+//       //  WebDriver driver = new FirefoxDriver();
+//         driver.get("https://rahulshettyacademy.com");
+//         String page_title = driver.getTitle();
+//         System.out.println(page_title);
+//         System.out.println(driver.getCurrentUrl());
+//         driver.close();
+        
+//     }
+// }
